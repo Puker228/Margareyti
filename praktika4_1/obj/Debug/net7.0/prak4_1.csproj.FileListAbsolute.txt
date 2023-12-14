@@ -1,0 +1,15 @@
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/bin/Debug/net7.0/prak4_1
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/bin/Debug/net7.0/prak4_1.deps.json
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/bin/Debug/net7.0/prak4_1.runtimeconfig.json
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/bin/Debug/net7.0/prak4_1.dll
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/bin/Debug/net7.0/prak4_1.pdb
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/prak4_1.csproj.AssemblyReference.cache
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/prak4_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/prak4_1.AssemblyInfoInputs.cache
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/prak4_1.AssemblyInfo.cs
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/prak4_1.csproj.CoreCompileInputs.cache
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/prak4_1.dll
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/refint/prak4_1.dll
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/prak4_1.pdb
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/prak4_1.genruntimeconfig.cache
+/Users/danildyacenko/CSharpProjects/nightPrikols/prak4_1/obj/Debug/net7.0/ref/prak4_1.dll

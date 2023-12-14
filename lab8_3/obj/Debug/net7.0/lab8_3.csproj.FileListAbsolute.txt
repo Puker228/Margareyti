@@ -1,0 +1,15 @@
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/bin/Debug/net7.0/lab8_3
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/bin/Debug/net7.0/lab8_3.deps.json
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/bin/Debug/net7.0/lab8_3.runtimeconfig.json
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/bin/Debug/net7.0/lab8_3.dll
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/bin/Debug/net7.0/lab8_3.pdb
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/lab8_3.csproj.AssemblyReference.cache
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/lab8_3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/lab8_3.AssemblyInfoInputs.cache
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/lab8_3.AssemblyInfo.cs
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/lab8_3.csproj.CoreCompileInputs.cache
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/lab8_3.dll
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/refint/lab8_3.dll
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/lab8_3.pdb
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/lab8_3.genruntimeconfig.cache
+/Users/danildyacenko/CSharpProjects/nightPrikols/lab8_3/obj/Debug/net7.0/ref/lab8_3.dll
