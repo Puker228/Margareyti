@@ -1,5 +1,7 @@
 ﻿<Properties StartupConfiguration="{C6B28EFB-0E23-4CF8-9F63-921B168E0DC1}|Default">
+  <MonoDevelop.Ide.ItemProperties.lab8__16 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="lab8_16/Room.cs">
     <Files>
@@ -9,17 +11,13 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="nightPrikols" expanded="True">
-            <Node name="lab8_16" expanded="True">
-              <Node name="Room.cs" selected="True" />
-            </Node>
+            <Node name="lab8_16" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.lab8__16 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

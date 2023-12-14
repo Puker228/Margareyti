@@ -18,39 +18,39 @@ namespace prak4_2
                 Console.WriteLine("6 - Удалить список");
                 Console.WriteLine("7 - Выйти");
                 Console.Write("Действие: ");
-                int choice = Convert.ToInt32(Console.ReadLine());
+                string choice = Console.ReadLine();
                 switch (choice)
                 {
-                    case 1:
+                    case "1":
                         list = new LinkedList();
                         list.AddList();
                         Console.WriteLine("Список создан");
                         break;
-                    case 2:
+                    case "2":
                         Console.Write("Новые данные: ");
                         int data = Convert.ToInt32(Console.ReadLine());
                         list.Addd(data);
                         break;
-                    case 3:
+                    case "3":
                         Console.Write("Новые данные: ");
                         int insertData = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Позиция: ");
                         int position = Convert.ToInt32(Console.ReadLine());
                         list.InsertPosition(insertData, position);
                         break;
-                    case 4:
+                    case "4":
                         Console.Write("Позиция: ");
                         int deletePosition = Convert.ToInt32(Console.ReadLine());
                         list.Del(deletePosition);
                         break;
-                    case 5:
+                    case "5":
                         list.Read();
                         break;
-                    case 6:
+                    case "6":
                         list = null;
                         Console.WriteLine("Список обнулен");
                         break;
-                    case 7:
+                    case "7":
                         return;
                     default:
                         Console.WriteLine("Нет такого выбора");
