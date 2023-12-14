@@ -6,7 +6,7 @@ namespace prak4_2
     {
         static void Main()
         {
-            LinkedList list = null;
+            LList list = null;
             
             while(true)
             {
@@ -18,33 +18,33 @@ namespace prak4_2
                 Console.WriteLine("6 - Удалить список");
                 Console.WriteLine("7 - Выйти");
                 Console.Write("Действие: ");
-                int choice = Convert.ToInt32(Console.ReadLine());
-                switch (choice)
+                int c = Convert.ToInt32(Console.ReadLine());
+                switch (c)
                 {
                     case 1:
-                        list = new LinkedList();
+                        list = new LList();
                         list.AddList();
                         Console.WriteLine("Список создан");
                         break;
                     case 2:
                         Console.Write("Новые данные: ");
                         int data = Convert.ToInt32(Console.ReadLine());
-                        list.Addd(data);
+                        list.AddData(data);
                         break;
                     case 3:
                         Console.Write("Новые данные: ");
                         int insertData = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Позиция: ");
                         int position = Convert.ToInt32(Console.ReadLine());
-                        list.InsertPosition(insertData, position);
+                        list.InsertPos(insertData, position);
                         break;
                     case 4:
                         Console.Write("Позиция: ");
                         int deletePosition = Convert.ToInt32(Console.ReadLine());
-                        list.Del(deletePosition);
+                        list.DelData(deletePosition);
                         break;
                     case 5:
-                        list.Read();
+                        list.ReadData();
                         break;
                     case 6:
                         list = null;
@@ -59,11 +59,17 @@ namespace prak4_2
             } 
         }
     }
-    class LinkedList
+
+    class Node
+    {
+        public int data;
+        public Node prev;
+        public Node next;
+    }
+
+    class LList
     {
         private Node head;
-        
-        
         public void AddList()
         {
             Console.Write("Введите количество элементов: ");
@@ -79,7 +85,7 @@ namespace prak4_2
 
                 if (head == null)
                 {
-                    newNode.previous = null;
+                    newNode.prev = null;
                     head = newNode;
                 }
                 else
@@ -89,13 +95,13 @@ namespace prak4_2
                     {
                         lastNode = lastNode.next;
                     }
+
                     lastNode.next = newNode;
-                    newNode.previous = lastNode;
+                    newNode.prev = lastNode;
                 }
             }
         }
-        
-        public void Addd(int data)
+        public void AddData(int data)
         {
             Node newNode = new Node();
             newNode.data = data;
@@ -112,11 +118,10 @@ namespace prak4_2
                     lastNode = lastNode.next;
                 }
                 lastNode.next = newNode;
-                newNode.previous = lastNode;
+                newNode.prev = lastNode;
             }
         }
-
-        public void InsertPosition(int data, int position)
+        public void InsertPos(int data, int position)
         {
             Node newNode = new Node();
             newNode.data = data;
@@ -124,7 +129,7 @@ namespace prak4_2
             if (position == 1)
             {
                 newNode.next = head;
-                head.previous = newNode;
+                head.prev = newNode;
                 head = newNode;
             }
             else
@@ -136,32 +141,30 @@ namespace prak4_2
                 }
 
                 newNode.next = temp.next;
-                temp.next.previous = newNode;
+                temp.next.prev = newNode;
                 temp.next = newNode;
-                newNode.previous = temp;
+                newNode.prev = temp;
             }
         }
-
-        public void Del(int pos)
+        public void DelData(int position)
         {
-            if (pos == 1)
+            if (position == 1)
             {
                 head = head.next;
-                head.previous = null;
+                head.prev = null;
             }
             else
             {
                 Node temp = head;
-                for (int i = 1; i < pos - 1; i++)
+                for (int i = 1; i < position - 1; i++)
                 {
                     temp = temp.next;
                 }
                 temp.next = temp.next.next;
-                temp.next.previous = temp;
+                temp.next.prev = temp;
             }
         }
-
-        public void Read()
+        public void ReadData()
         {
             Node current = head;
             while (current != null)
@@ -172,12 +175,4 @@ namespace prak4_2
             Console.WriteLine();
         }
     }
-    
-    class Node
-    {
-        public int data;
-        public Node previous;
-        public Node next;
-    }
-
 }
